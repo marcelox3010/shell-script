@@ -9,3 +9,9 @@ echo "4. You are running this script on $SERVER_NAME"
 
 SERVER_NAME_2=`hostname`
 echo "5. You are running this script on $SERVER_NAME_2"
+
+FIRST3LETTERS="ABC 1"
+FIRST_THREE_LETTERS="ABC 2"
+firstThreeLetters="ABC 3"
+
+echo "$FIRST3LETTERS $FIRST_THREE_LETTERS $firstThreeLetters"
