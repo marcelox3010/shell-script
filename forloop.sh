@@ -1,0 +1,27 @@
+#!/bin/bash
+
+# LOOP SIMPLES BASEADO EM UMA STRING
+COLORS="RED GREEN BLUE"
+
+echo  "FIRST LOOP - PRIMEIRO LOOP"
+
+for COLOR  in $COLORS
+do
+
+	echo "COLOR: $COLOR"
+
+done
+
+# LOOP SIMPLES BASEADO  EM UM LS
+
+echo "SECOND LOOP - SEGUNDO LOOP"
+
+FILES=$(ls)
+
+for FILE in $FILES
+do
+
+	echo "FILE: $FILE"
+
+done
+
