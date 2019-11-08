@@ -1,0 +1,8 @@
+#!/bin/bash
+
+ls  /not/here
+
+# DEVE RETORNAR CÓDIGO 2 - CÓDIGO DE ERRO.
+# O RETORNO DA LINHA ANTERIOR FICA ARMAZENADO NA VARIÁVEL $
+
+echo "$?"
