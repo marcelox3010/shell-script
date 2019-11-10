@@ -11,6 +11,9 @@ function myfunction(){
 function myfunction2(){
 
     GLOBAL_IN="GLOBAL IN"
+    local LOCAL_VAR="LOCAL VAR"
+
+    echo "$LOCAL_VAR"
 
 }
 
